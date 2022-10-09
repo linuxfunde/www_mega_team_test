@@ -1,0 +1,200 @@
+
+html, body {
+	height: 100%;
+	line-height: 1.6;
+	margin: 0;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+/*Шапка*/
+.navbar {
+	width: 100%;
+	height: 100px;
+	box-shadow: 0 4px 10px rgba(0,0,0, .1);
+}
+.navbar .container {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+}
+.navbar-menu {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0; 
+}
+.navbar-menu li {
+	display: inline-block;
+	padding: 10px;
+}
+.navbar-wrap {
+	display: flex;
+	flex-flow: row nowrap;
+}
+.img {
+	width: 100px;
+	margin-left: 40px;
+}
+.icon {
+	width: 28px;
+	margin-right: 5px;
+}
+/*Ссылки*/
+.nav {
+	text-decoration: none;
+	color: black;
+	font-size: 26px;
+	margin: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+/*Основа*/
+.wrape {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.content {
+	flex: 1 0 auto;
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.intro {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background: url("../media/fon.jpg") center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+.inner {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+/*Заголовок*/
+.title {
+	font-size: 80px;
+	text-align: center;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+.text {
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	text-align: justify;
+	max-width: 1200px;
+	margin-top: 0;
+	margin-left: 85px;
+	font-weight: bolder;
+}
+/*Акции*/
+.section {
+	padding: 60px 0; 
+	height: 100%;
+}
+.inter {
+	width: 100%;
+	max-width: 950px;
+	margin: 0 auto 40px;
+	text-align: center;
+}
+.ttl {
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+
+}
+.cust {
+	display: flex;
+	justify-content: space-between;
+}
+.about-cust {
+	width: 50%;
+	margin-left: 50px;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	text-align: justify;
+	max-width: 1200px;
+	margin-top: 0;
+	font-weight: bolder;
+}
+.about-img {
+	width: 50%;
+	margin-left: 50px;
+}
+/*Гарантии*/
+.navbar-menu2 {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0; 
+	text-align: center;
+	border-radius: 10px;
+	border: 3px solid #6b8e23;
+	margin: 50px;
+
+}
+.navbar-menu2 li {
+	display: inline-block;
+	padding: 10px;
+}
+.about-cust1 {
+	width: 55%;
+	margin-left: 50px;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	text-align: justify;
+	max-width: 1200px;
+	margin-top: 0;
+	font-weight: bolder;
+}
+/*Подвал*/
+.footer {
+	flex: 0 0 auto;
+	padding: 60px;
+	background: #6b8e23;
+}
+/*Текст*/
+.navig {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	margin: 40px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 2;
+}
+.add {
+	color: black;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	opacity: 0.6;
+	font-weight: bolder;
+}
+.addr {
+	color: black;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-menu1 {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0; 
+}
+.navbar-menu1 li {
+	display: inline-block; 
+	margin-left: 15px;
+}
+.iconca {
+	width: 40px;
+}
