@@ -3,17 +3,22 @@ html, body {
 	height: 100%;
 	line-height: 1.6;
 	margin: 0;
+    background-color: #f2dec2;
+    font-family: 'Cuprum', sans-serif;
 }
 *,
 *:before,
 *:after {
 	box-sizing: border-box;
+    
+    
 }
 /*Шапка*/
 .navbar {
 	width: 100%;
 	height: 100px;
-	box-shadow: 0 4px 10px rgba(0,0,0, .1);
+	box-shadow: 0 5px 10px rgba(0,0,0, .1);
+    margin-bottom: 15px;
 }
 .navbar .container {
 	height: inherit;
@@ -26,6 +31,7 @@ html, body {
 	list-style-type: none;
 	padding-left: 0;
 	margin-bottom: 0; 
+    
 }
 .navbar-menu li {
 	display: inline-block;
@@ -40,7 +46,7 @@ html, body {
 	margin-left: 40px;
 }
 .icon {
-	width: 28px;
+	width: 25px;
 	margin-right: 5px;
 }
 /*Ссылки*/
@@ -56,26 +62,30 @@ html, body {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
+    font-family: 'Cuprum', sans-serif;
 }
 .content {
 	flex: 1 0 auto;
 	width: 100%;
 	max-width: 1400px;
 	margin: 0 auto;
+    bottom: 10px;
+    font-family: 'Cuprum', sans-serif;
 }
 .intro {
 	width: 100%;
-	height: 100vh;
+	height: 100vh;    
 	display: flex;
 	flex-direction: column;
-	background: url("../media/fon.jpg") center no-repeat;
+	background: url("../media/fo.jpg") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
+    font-family: 'Cuprum', sans-serif;
 
 }
 .inner {
 	width: 100%;
-	max-width: 800px;
+	max-width: 500px;
 	margin: 0 auto;
 }
 /*Заголовок*/
@@ -133,68 +143,9 @@ html, body {
 	width: 50%;
 	margin-left: 50px;
 }
-/*Гарантии*/
-.navbar-menu2 {
-	list-style-type: none;
-	padding-left: 0;
-	margin-bottom: 0; 
-	text-align: center;
-	border-radius: 10px;
-	border: 3px solid #6b8e23;
-	margin: 50px;
-
-}
-.navbar-menu2 li {
-	display: inline-block;
-	padding: 10px;
-}
-.about-cust1 {
-	width: 55%;
-	margin-left: 50px;
-	font-size: 20px;
-	font-family: 'Ubuntu', sans-serif;
-	text-decoration: none;
-	text-align: justify;
-	max-width: 1200px;
-	margin-top: 0;
-	font-weight: bolder;
-}
 /*Подвал*/
 .footer {
 	flex: 0 0 auto;
 	padding: 60px;
 	background: #6b8e23;
-}
-/*Текст*/
-.navig {
-	text-decoration: none;
-	color: black;
-	font-size: 20px;
-	margin: 40px;
-	font-family: 'Roboto', sans-serif;
-	line-height: 2;
-}
-.add {
-	color: black;
-	font-size: 20px;
-	font-family: 'Roboto', sans-serif;
-	opacity: 0.6;
-	font-weight: bolder;
-}
-.addr {
-	color: black;
-	font-size: 20px;
-	font-family: 'Roboto', sans-serif;
-}
-.navbar-menu1 {
-	list-style-type: none;
-	padding-left: 0;
-	margin-bottom: 0; 
-}
-.navbar-menu1 li {
-	display: inline-block; 
-	margin-left: 15px;
-}
-.iconca {
-	width: 40px;
 }

@@ -1,0 +1,233 @@
+
+html, body {
+	height: 100%;
+	line-height: 1.6;
+	margin-top: 15px;
+    background-color: #f2dec2;
+}
+
+.img {
+	width: 70px;
+	margin-left: 40px;
+}
+.icon {
+	width: 25px;
+	margin-right: 12px;
+}
+header{
+	width: 100%;
+	height: 100px;
+    margin-bottom: 15px;
+    font-family: 'Cuprum', sans-serif;
+}
+
+/*настройки меню*/
+.menu {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cuprum', sans-serif;
+/*чтобы не было точек*/
+}
+/*чтобы шло попрядку*/
+.menu ul{
+    list-style: none;
+     display: flex;
+    justify-content: center;
+}
+/*чтобы были отступы, цвет. не было подчеркиваний*/
+.menu > ul li a{
+    display: block;
+    padding: 15px 30px 35px 40px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+     color: #454547;
+    
+    position: relative;
+    border-right: 1px solid #ebc99b;
+}
+.menu > ul li
+}
+.menu > ul li > a i.icon{
+    position: absolute;
+    top 15px;
+    left: 12px;
+    font-size: 18px
+}
+.menu > ul li:first-child{
+    border-left: 1px solid #ebc99b;
+}
+.menu > ul li:last-child{
+    border-right: 1px solid #ebc99b;
+}
+/*анимация*/
+.menu li a:hover{
+    background: #ebc99b;
+    color: #ba8a54;
+    box-shadow: 1px 5px 10px -5px #ba8a54 ;
+    transition: all 0.3s ease;
+}
+
+.cust{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+.intro{
+    font-family: 'Permanent Marker', cursive;
+}
+.wrape {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.content {
+	flex: 1 0 auto;
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+    bottom: 10px;
+}
+.intro {
+	width: 100%;
+	height: 100vh;
+    
+	display: flex;
+	flex-direction: column;
+	background: url("../media/fon.jpg") center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+.inner {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+/*Заголовок*/
+.title {
+	font-size: 80px;
+	text-align: center;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+.text {
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	text-align: justify;
+	max-width: 1200px;
+	margin-top: 0;
+	margin-left: 85px;
+	font-weight: bolder;
+}
+/*Акции*/
+.section {
+	padding: 60px 0; 
+	height: 100%;
+}
+.inter {
+	width: 100%;
+	max-width: 950px;
+	margin: 0 auto 40px;
+	text-align: center;
+}
+.ttl {
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+
+}
+.cust {
+	display: flex;
+	justify-content: space-between;
+}
+.about-cust {
+	width: 50%;
+	margin-left: 50px;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	text-align: justify;
+	max-width: 1200px;
+	margin-top: 0;
+	font-weight: bolder;
+}
+.about-img {
+	width: 50%;
+	margin-left: 50px;
+}
+/*Гарантии*/
+.navbar-menu2 {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0; 
+	text-align: center;
+	border-radius: 10px;
+	border: 3px solid #6b8e23;
+	margin: 50px;
+
+}
+.navbar-menu2 li {
+	display: inline-block;
+	padding: 10px;
+}
+.about-cust1 {
+	width: 55%;
+	margin-left: 50px;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	text-align: justify;
+	max-width: 1200px;
+	margin-top: 0;
+	font-weight: bolder;
+}
+/*Подвал*/
+.footer {
+	flex: 0 0 auto;
+	padding: 60px;
+	background: #6b8e23;
+}
+/*Текст*/
+.navig {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	margin: 40px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 2;
+}
+
+
+/*
+html, body {
+	height: 100%;
+	line-height: 1.6;
+	margin: 0;
+    background-color: #f2dec2;
+    font-family: 'Cuprum', sans-serif;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+    
+    
+}
+
+.navbar {
+	width: 100%;
+	height: 100px;
+	box-shadow: 0 5px 10px rgba(0,0,0, .1);
+    margin-bottom: 15px;
+}
+.navbar .container {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+}
+*/
