@@ -90,3 +90,13 @@ body {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+.head{
+    margin-top: 100px;
+    font-size: 124px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.block2{
+    margin-top: 100px;
+    font-size: 72px;
+}
